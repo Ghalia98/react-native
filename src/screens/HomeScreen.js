@@ -6,9 +6,10 @@ const HomeScreen = ({ navigation }) => {
     <Text style={styles.text}>Home Screen</Text>
     <Button title='Components Demo' onPress={() => navigation.navigate('Components')} />
     <Button title='List Demo' onPress={() => navigation.navigate('List')} />
-    <Button title='Images' onPress={() => navigation.navigate('Image')} />
-    <Button title='Counter' onPress={() => navigation.navigate('Counter')} />
-    <Button title='Color Generator' onPress={() => navigation.navigate('Color')} />
+    <Button title='Images Demo' onPress={() => navigation.navigate('Image')} />
+    <Button title='Counter Demo' onPress={() => navigation.navigate('Counter')} />
+    <Button title='Color Generator Demo' onPress={() => navigation.navigate('Color')} />
+    <Button title='Square Demo' onPress={() => navigation.navigate('Square')} />
     {/* <TouchableOpacity onPress={() => console.log('Text pressed!')}>
       <Text>
         List Demo
